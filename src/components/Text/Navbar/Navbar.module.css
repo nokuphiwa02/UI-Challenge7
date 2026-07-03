@@ -1,0 +1,42 @@
+nav {
+    position:fixed;
+    top:0;
+    width:100vw;
+    background-color:;
+    color:navy;
+    padding-left: 10px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    align-items: start;
+    justify-content:  space-between;
+
+}
+.link{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration:  none;
+    color: black;
+    cursor: pointer;
+}
+
+.link:hover
+{
+    color:navy
+}
+
+.profile-icon{
+    height: 50px;
+    width:100px;
+    border-radius:20px;
+    background-color: navy;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
