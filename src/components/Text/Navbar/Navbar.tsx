@@ -1,6 +1,8 @@
-import React from 'react'
+import React from "react";
 import { Text } from '../Text'
-import style from './Navbar.module.css'
+import style from "./Navbar.module.css";
+import {FiSearch} from "react-icons/fi";
+import { ContentContainer } from "../ContentContainer";
 
 
 
@@ -9,18 +11,22 @@ export const Navbar =() => {
 
 
 return (
-<nav>
-<div className={style.content}>
-<Text varient={'h2'} style={{ margin:0}}>ModernFurniture</Text> <br/>
-< a href='/#' className={style.link}>Home</a>
-< a href='/#' className={style.link}>Shop</a>
-< a href='/#' className={style.link}>About</a>
-< a href='/#' className={style.link}>Contact</a> <br/>
-<div className={style['profile-icon']}> <br/>
-<Text varient={'span'}>MF </Text> <br/>
-</div>
-</div>
+<nav
+   className={style.navbar}>
+<div className={style.content}> 
+
+<Text variant='h2' className={style.logo}>ModernFurniture</Text> <br/>
+<a href='/#' className={style.link}>Home</a>
+<a href='/#' className={style.link}>Shop</a>
+<a href='/#' className={style.link}>About</a>
+<a href='/#' className={style.link}>Contact</a> 
+<div className={style.profile}>
+    <FiSearch  size={30}/>
+    <div className= {style.avatar}></div>
+    </div>
+
+</div> 
 
 </nav>
-)
-}
+
+)}

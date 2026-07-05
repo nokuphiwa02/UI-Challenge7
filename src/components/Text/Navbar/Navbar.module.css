@@ -1,42 +1,62 @@
 nav {
     position:fixed;
     top:0;
+    left: 0;
     width:100vw;
-    background-color:;
-    color:navy;
-    padding-left: 10px;
+    height: 70px;
+    background-color:white ;
+    color: #bfdde6;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8);
+    z-index: 1000;
 }
 
 .content {
     max-width: 1200px;
+    height: 100px;
     margin: auto;
-    padding: 10px;
+    padding: 0 30px;
+    color: #333;
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content:  space-between;
 
 }
 .link{
     display:flex;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     text-decoration:  none;
-    color: black;
+    color: #333;
+    transition: color 0.3s;
     cursor: pointer;
 }
 
 .link:hover
 {
-    color:navy
+    color: #6bb9d6;
 }
 
 .profile-icon{
-    height: 50px;
-    width:100px;
-    border-radius:20px;
-    background-color: navy;
+    height: 100px;
+    width: 80px;
+    border-radius: 50px;
+    background-color: #0d2d4d;
     display:flex;
     justify-content: center;
     align-items: center;
     cursor:pointer;
+   
+}
+
+.logo{
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+.body{
+    margin: 0;;
+    background-color: #d8eef5;
+    font-family: arial;
 }
