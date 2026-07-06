@@ -1,32 +1,37 @@
 import React from "react";
 import { Text } from '../Text'
 import style from "./Navbar.module.css";
-import {FiSearch} from "react-icons/fi";
 import { ContentContainer } from "../ContentContainer";
 
 
-
-export const Navbar =() => {
+export const Navbar = () => {
 
 
 
 return (
-<nav
-   className={style.navbar}>
-<div className={style.content}> 
-
+<nav>
+  <ContentContainer className={style.content}>
+{/* <div className={style.content}>  */}
 <Text variant='h2' className={style.logo}>ModernFurniture</Text> <br/>
-<a href='/#' className={style.link}>Home</a>
-<a href='/#' className={style.link}>Shop</a>
-<a href='/#' className={style.link}>About</a>
-<a href='/#' className={style.link}>Contact</a> 
-<div className={style.profile}>
-    <FiSearch  size={30}/>
-    <div className= {style.avatar}></div>
+
+  <a href='/#' className={style.link}>Home</a>
+  <a href='/#' className={style.link}>Shop</a>
+  <a href='/#' className={style.link}>About</a>
+  <a href='/#' className={style.link}>Contact Us</a> 
+<div className={style['profile-icon']} >
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+</svg>
+   
+    <div className={style['profile-icon']} >
+     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+</svg>
     </div>
+ </div>  
 
-</div> 
-
+ {/* </div> */}
+  </ContentContainer>
 </nav>
 
 )}

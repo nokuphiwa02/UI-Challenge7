@@ -1,0 +1,44 @@
+.button{
+color: #758963;
+shape-image-threshold: square;
+height: 50px;
+
+
+
+}
+
+
+
+.hero {
+background-color: rgba(0, 128, 0, 0.582);
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 60px 40px;
+min-height: 300pxcolor white;
+width: 90%;
+margin: 0 60px;
+}
+
+.hero-text {
+display: flex;
+flex-direction: column;
+gap: 20px;
+text-align: right;
+}
+.section {
+background-color: black;
+width: 90%;
+padding: 0 40px;
+text-align: left;
+margin: 0 60px;
+}
+.container{
+color: black;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 40px;
+}
+.text{
+text-align:start;
+}

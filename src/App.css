@@ -1,11 +1,11 @@
  #app-container {
   width: 100vw;
   position: relative;
-  min-height: (100vh- 100px);
+  min-height: calc(100vh- 100px);
   padding-bottom: 100px;
 }
 
   #scrollable {
- padding-bottom: 100px;
+ padding-top: 40px;
   
 }
