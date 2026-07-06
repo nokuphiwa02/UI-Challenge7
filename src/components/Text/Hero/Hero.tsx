@@ -1,6 +1,6 @@
 import './Hero.module.css'
 import { Text } from '../Text'
-// import furniture from '../../assets/Furniture.jpg'
+import furniture from '../../../assets/Furniture.jpg'
 
 
 export const Hero = () => {
@@ -24,7 +24,7 @@ return (
 <div className="section">
 <div className="container">
 <Text variant={'h1'} >Couch</Text>
-{/* <img src={furniture} alt="furniture" /> */}
+<img src={furniture} alt="furniture" /> 
 <button style={{color:'white' , backgroundColor:'', height:'50px',width:'120px'}}> LEARN MORE</button>
 </div>
 </div>
