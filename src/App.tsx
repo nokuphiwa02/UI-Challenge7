@@ -1,23 +1,31 @@
 
 
-import './App.css'
+import './App.css';
 import { Navbar } from './components/Text/Navbar/Navbar'
 // import { Footer } from './components/Text/footer/footer'
 import {Hero} from './components/Text/Hero/Hero'
 import { Decoration } from './components/Text/Decoration/Decoration'
+import { ImageSection } from './components/Text/ImageSection/ImageSection'
+import { BottomSection } from './components/BottomSection/BottomSection';
+
 
 
 function App() {
   
   return (
+    <>
     <div id='app-container'>
     <div id='scrollable'>
-      <Navbar /> 
+           <Navbar /> 
            <Hero />
            <Decoration/>
+           <ImageSection/>
+           <BottomSection/>
       </div> 
       {/* <Footer /> */}
     </div>
+  
+    </>
   )
 }
 

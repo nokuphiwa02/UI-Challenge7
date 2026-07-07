@@ -1,4 +1,4 @@
-// import style from "./Hero.module.css";
+import style from "./Hero.module.css";
 import furniture from "../../../assets/Furniture.png";
 
 export const Hero = () => {
@@ -15,6 +15,9 @@ export const Hero = () => {
             marginTop: "40px",
           }}
         >
+          <button className={style.button}>
+          Shop Now
+        </button>
           {/* <div className="imageStyle">
             <img
               src={furniture}

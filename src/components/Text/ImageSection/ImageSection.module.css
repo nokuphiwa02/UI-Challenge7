@@ -1,16 +1,16 @@
-.right {
+.left {
   
   height: 50vh;
   width: 50vw;
   border: 5px solid greenyellow;
 background-color: aquamarine;
 }
-.right img{
+.left img{
     height: 50vh;
   width: 50vw;
   margin: auto;
 }
-.left{
+.right{
     
     align-items: right;
     flex-direction: column;
