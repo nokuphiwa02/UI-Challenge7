@@ -1,0 +1,30 @@
+.right {
+  
+  height: 50vh;
+  width: 50vw;
+  border: 5px solid black;
+background-color: aquamarine;
+}
+.right img{
+    height: 50vh;
+  width: 50vw;
+  margin: auto;
+}
+.left{
+    
+    align-items: right;
+    flex-direction: column;
+    display: flex;
+    
+    border: 5px solid green;
+}
+
+.container{
+    border: 5px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+    
+}
