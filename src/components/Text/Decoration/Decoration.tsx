@@ -1,5 +1,5 @@
 import { Text } from "../Text";
-import chair from "../../../assets/chair.jpg";
+import chair from "../../../assets/chair.png";
 import style from "./Decoration.module.css";
 
 export const Decoration = () => {
