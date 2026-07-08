@@ -1,5 +1,5 @@
 import { Text } from "../Text";
-import chair from "../../../assets/chair.png";
+import chair from "../../../assets/chair.jpg";
 import style from "./Decoration.module.css";
 
 export const Decoration = () => {
@@ -32,6 +32,7 @@ export const Decoration = () => {
       <img src={chair} alt="chair" />
       </div>
       </div>
+   
     </>
-  );
-};
+  )
+}

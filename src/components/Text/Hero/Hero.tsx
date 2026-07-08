@@ -15,9 +15,6 @@ export const Hero = () => {
             marginTop: "40px",
           }}
         >
-          <button className={style.button}>
-          Shop Now
-        </button>
           {/* <div className="imageStyle">
             <img
               src={furniture}
@@ -25,6 +22,10 @@ export const Hero = () => {
               style={{ display: "flex", alignItems: "center" }}
             />
           </div> */}
+        </div>
+
+        <div className={style.buttonStyle}>
+          <button className={style.button}>Shop Now</button>
         </div>
       </div>
       <div className="section">

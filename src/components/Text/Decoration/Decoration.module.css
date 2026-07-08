@@ -2,7 +2,7 @@
   
   height: 50vh;
   width: 50vw;
-  border: 5px solid greenyellow;
+  /* border: 5px solid greenyellow; */
 background-color: aquamarine;
 }
 .right img{
@@ -15,12 +15,15 @@ background-color: aquamarine;
     align-items: right;
     flex-direction: column;
     display: flex;
+    background-color: lightgreen;
+    font-style: italic;
+    font-size: large;
     
-    border: 5px solid greenyellow;
+    /* border: 5px solid greenyellow; */
 }
 
 .container{
-    border: 5px solid greenyellow;
+    /* border: 5px solid greenyellow; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -29,10 +32,17 @@ background-color: aquamarine;
     
 }
 .button{
-  width: 80px;
-  height: 20px;
-  background-color: purple;
+  width: 100px;
+  height: 50px;
+  background-color: black;
   color: white;
   align-items: center;
   justify-content: center;
+  margin-left: 300px;
+  border-radius: 20px;
+  transition: black;
+  
+}
+.button:hover{
+  color: blue;
 }

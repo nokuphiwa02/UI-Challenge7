@@ -1,5 +1,5 @@
 import { Text } from "../Text";
-import design  from "../../../assets/design.png";
+import design  from "../../../assets/design.jpg";
 import style from "./ImageSection.module.css";
 
 export const ImageSection = () => {
