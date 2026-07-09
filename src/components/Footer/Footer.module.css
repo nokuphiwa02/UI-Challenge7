@@ -1,14 +1,13 @@
 footer {
-  position: fixed;
   display: inline-flex;
   width: 200vw;
-  height: 200px;
   bottom: 0;
-  background-color: #0d4d47;
+  background-color: #c3ecfb;
 }
-.content{
-  display: inline-flex; 
-  gap: 150px; 
+
+.content {
+  display: inline-flex;
+  gap: 100px;
 }
 
 ul {
@@ -16,24 +15,24 @@ ul {
   font-style: italic;
   font-size: large;
 }
-h1{
-    font-style: italic;
-    
+h1 {
+  font-style: italic;
+  font: larger;
 }
-li{
-    font-style: italic;
-}
-
-h2{
-     font-style: italic;
-     font-size: medium;
-}
-p{
-    font-style: italic;
-    font-size: large;
+li {
+  font-style: italic;
 }
 
-button{
+h2 {
+  font-style: italic;
+  font-size: medium;
+}
+p {
+  font-style: italic;
+  font-size: large;
+}
+
+button {
   width: 100px;
   height: 50px;
   background-color: black;
@@ -44,11 +43,21 @@ button{
   border-radius: 20px;
   transition: black;
 }
- button:hover{
-  color: blue;
- }
+button:hover {
+  color: #a3cedd;
+}
 
- .profile-icon{
-    display:flex;
-    gap: 20px;
- }
+.profile-icon {
+  display: flex;
+  gap: 100px;
+  
+}
+
+.contentContainer{
+  width: 100%;
+}
+
+footer{
+  background-color:  #a3cedd;
+ 
+}

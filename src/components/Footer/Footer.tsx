@@ -1,63 +1,63 @@
 import React from "react";
 import { ContentContainer } from "../Text/ContentContainer";
-import style from './Footer.module.css'
+import style from "./Footer.module.css";
 
 export const Footer = () => {
   return (
     <footer>
       <ContentContainer className={style.content}>
-      <div>
-        <h1>
-          WE BRING  YOUR SPACE TO LIFE
-        </h1>
-      </div>
-      <div>
-          <h2>
-          Quik Links
-          </h2>
-          <ul>
-          <li>Home</li>
-          <li>Contact</li>
-          <li>Our story</li>
-          <li>Collection</li>
-        </ul>
+        <div>
+          <h2>WE BRING YOUR SPACE TO LIFE</h2>
         </div>
-      <div>
-        <h2>
-          About Us
-        </h2>
-        <p>
-          We design morden ,sustainable , and high quality furniture that elevates you everyday living.
-        </p>
-      </div>
-      <div>
-        <h2>
-          Stay connected
-        </h2>
-        <p>
-          We design morden ,sustainable , and high quality furniture that elevates you everyday living.
-        </p>
-        <button className={style.button}>
-          BUY NOW
-        </button>
-      </div>
-      <div>
-        <div className={style['profile-icon']} >
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-</svg>
-   
-    <div className={style['profile-icon']} >
-     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-</svg>
-    </div>
- </div>  
-      </div>
+        <div>
+          <h2>Quik Links</h2>
+          <ul>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>Our story</li>
+            <li>Collection</li>
+          </ul>
+        </div>
+        <div>
+          <h2>About Us</h2>
+          <p>
+            We design morden ,sustainable , and high quality furniture that
+            elevates you everyday living.
+          </p>
+        </div>
+        <div>
+          <h2>Stay connected</h2>
+          <p>
+            We design morden ,sustainable , and high quality furniture that
+            elevates you everyday living.
+          </p>
+          <button className={style.button}>BUY NOW</button>
+        </div>
+        <div>
+          <div className={style["profile-icon"]}>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+            </svg>
 
-
-        
-     </ContentContainer>
+            <div className={style["profile-icon"]}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+              </svg>
+              <div className={style["profile-icon"]}>
+                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+             </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ContentContainer>
     </footer>
   );
 };

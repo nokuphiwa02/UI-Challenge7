@@ -14,16 +14,17 @@ function App() {
   
   return (
     <>
-         <div id='app-container'>
-          <div id='scrollable'>
+         <div id='app-container'> 
+           <div id='scrollable'>
             <Navbar /> 
-           <Hero />
-           <Decoration/>
-           <ImageSection/>
-           <BottomSection/>
-          </div>
-           <Footer/>
-        </div>
+            <Hero />
+            <Decoration/>
+            <ImageSection/>
+            <BottomSection/>
+            <Footer/>
+           </div>
+           
+         </div> 
        
     </>
   )
