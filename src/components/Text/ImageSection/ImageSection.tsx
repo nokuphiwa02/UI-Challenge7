@@ -9,7 +9,7 @@ export const ImageSection = () => {
      <div className={style["left"]}>
       <img src={design } alt="design" />
       </div>
-
+      <div className={style.content}>
       <div className={style["right"]}>
         {/* <div className={style["Decoration-Text"]}> */}
         <Text variant="h1">WHY CHOOSE US</Text>
@@ -28,6 +28,7 @@ export const ImageSection = () => {
         <button className={style.button}>
           Browse Now
         </button>
+      </div>
       </div>
       </div>
     </>

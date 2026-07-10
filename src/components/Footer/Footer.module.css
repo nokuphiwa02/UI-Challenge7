@@ -17,7 +17,7 @@ ul {
 }
 h1 {
   font-style: italic;
-  font: larger;
+  font: large;
 }
 li {
   font-style: italic;
@@ -25,7 +25,7 @@ li {
 
 h2 {
   font-style: italic;
-  font-size: medium;
+  font-size: large;
 }
 p {
   font-style: italic;
@@ -38,7 +38,7 @@ button {
   background-color: black;
   color: white;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   margin-left: 300px;
   border-radius: 20px;
   transition: black;
@@ -47,17 +47,36 @@ button:hover {
   color: #a3cedd;
 }
 
-.profile-icon {
+/* .profile-icon {
   display: flex;
   gap: 100px;
   
-}
+} */
 
-.contentContainer{
+.contentContainer {
   width: 100%;
 }
 
-footer{
-  background-color:  #a3cedd;
- 
+footer {
+  background-color: white;
 }
+
+.iconFacebook {
+  display: flex;
+  gap: 0px;
+  margin-top: 150px;
+  margin-left: 150px;
+}
+
+/* .iconTikot{
+  display: flex;
+  gap: 90x;
+  margin-top: 200PX;
+}  */
+
+/* .iconTwitter{
+display: flex;
+gap: 80px;
+
+}  */
+

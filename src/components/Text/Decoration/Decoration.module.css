@@ -13,9 +13,9 @@
   align-items: right;
   flex-direction: column;
   display: flex;
-  background-color: #c3fbf4;
+  background-color: white;
   font-style: italic;
-  font-size: large;
+  color: #2b6980;
 
   /* border: 5px solid greenyellow; */
 }
@@ -33,7 +33,7 @@
 .button {
   width: 100px;
   height: 50px;
-  background-color: black;
+  background-color: #2b6980;
   color: white;
   align-items: center;
   justify-content: center;
@@ -42,5 +42,5 @@
   transition: black;
 }
 .button:hover {
-  color: #a3cedd;
+  color: #2b6980;
 }

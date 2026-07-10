@@ -22,6 +22,7 @@ function App() {
             <ImageSection/>
             <BottomSection/>
             <Footer/>
+            
            </div>
            
          </div> 

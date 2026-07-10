@@ -1,11 +1,11 @@
 nav {
   width: 100%;
   height: 80px;
-  background-color: #c3fbf4;
+  background-color: white;
   padding: 5px;
   margin: 0;
   top: 0;
-  box-shadow: black;
+  box-shadow: #2b6980;
   margin-bottom: -40px;
 }
 .content {
@@ -13,14 +13,14 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin: auto;
-  color: black;
+  color: #2b6980;
 }
 .link {
   align-items: center;
   display: flex;
   cursor: pointer;
   gap: 10px;
-  color: black;
+  color: #2b6980;
   transition: color 0.3s;
   text-decoration: none;
 }

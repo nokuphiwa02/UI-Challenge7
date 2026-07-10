@@ -30,5 +30,10 @@
 .style.heroh2{
   font-size: larger;
   font-style: italic;
+  color: white;
 }
+ .heroContent{
+  font-size: large;
+  color: white;
+ }
 
