@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Text } from '../Text'
 import style from "./Navbar.module.css";
 import { ContentContainer } from "../ContentContainer";

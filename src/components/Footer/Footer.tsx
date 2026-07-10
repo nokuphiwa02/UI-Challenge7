@@ -1,4 +1,4 @@
-import React from "react";
+
 import { ContentContainer } from "../Text/ContentContainer";
 import style from "./Footer.module.css";
 
