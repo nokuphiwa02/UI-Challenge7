@@ -1,19 +1,22 @@
 footer {
-  display: inline-flex;
-  width: 200vw;
+  display: flex;
+  width: 100vw;
   bottom: 0;
   background-color: #c3ecfb;
+  color: #2b6980;
 }
 
 .content {
   display: inline-flex;
-  gap: 100px;
+  gap: 50px;
+  color: #2b6980;
 }
 
 ul {
   list-style: none;
   font-style: italic;
   font-size: large;
+  color: #2b6980;
 }
 h1 {
   font-style: italic;
@@ -35,7 +38,7 @@ p {
 button {
   width: 100px;
   height: 50px;
-  background-color: black;
+  background-color: #2b6980;
   color: white;
   align-items: center;
   /* justify-content: center; */
@@ -47,11 +50,6 @@ button:hover {
   color: #a3cedd;
 }
 
-/* .profile-icon {
-  display: flex;
-  gap: 100px;
-  
-} */
 
 .contentContainer {
   width: 100%;
@@ -59,24 +57,34 @@ button:hover {
 
 footer {
   background-color: white;
+  color: #2b6980;
 }
 
-.iconFacebook {
+.iconImage {
   display: flex;
-  gap: 0px;
-  margin-top: 150px;
-  margin-left: 150px;
+  gap: 10px;
+  height: 30px;
+  width: 30px;
+  margin-top: 200px;
+  margin-right: 20px;
+
 }
 
-/* .iconTikot{
-  display: flex;
-  gap: 90x;
-  margin-top: 200PX;
-}  */
 
-/* .iconTwitter{
-display: flex;
-gap: 80px;
+.footerh2 {
+  font-style: italic;
+  font-size: large;
+  color: #2b6980;
+}
 
-}  */
+.footerp {
+color: #2b6980;
+}
 
+.emailh2 {
+  font-style: italic;
+  font-size: medium;
+  color: #2b6980;
+  margin-top: 250px;
+  margin-right: 5px;
+}

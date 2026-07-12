@@ -6,3 +6,17 @@
   padding-bottom: 100px;
   
 }
+
+@media (max-width: 1280px) {
+  #app-container {
+    min-width: 90vw;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    width: 50vw;
+    flex-display: row;
+  }
+}
