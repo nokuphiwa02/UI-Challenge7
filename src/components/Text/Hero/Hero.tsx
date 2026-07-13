@@ -17,14 +17,14 @@ export const Hero = () => {
         >
           <div className={style.heroContent}>
             <h1 className={style.heroTopic}>WELCOME TO MODERN FURNITURE</h1>
-            <h2 className={style.heroh2}>We offer high quality ,stylish furniture
-              at affordable prices to help you create
-              a comfortable and beatful home.
-              shop with us and find the perfect pieces for every room.
+            <h2 className={style.heroh2}>
+              We offer high quality ,stylish furniture at affordable prices to
+              help you create a comfortable and beatful home. shop with us and
+              find the perfect pieces for every room.
             </h2>
             <div className={style.buttonStyle}>
-            <button className={style.button}>Shop Now</button>
-          </div>
+              <button className={style.button}>Shop Now</button>
+            </div>
           </div>
           {/* <div className={style.buttonStyle}>
             <button className={style.button}>Shop Now</button>

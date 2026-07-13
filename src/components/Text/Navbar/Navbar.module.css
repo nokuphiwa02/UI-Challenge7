@@ -52,3 +52,9 @@ nav {
     gap: 5px;
   }
 }
+
+@media (max-width: 1280px) {
+   .content {
+    gap: 5px;
+  }
+}
