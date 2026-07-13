@@ -11,7 +11,7 @@
   align-items: center;
 }
 
-.button{
+.button {
   margin-top: 400px;
   margin-right: 400px;
 }
@@ -20,20 +20,24 @@
   color: #a3cedd;
 }
 
-.style.heroTopic{
+.style.heroTopic {
   font-size: large;
   font-style: italic;
-  
-  
 }
 
-.style.heroh2{
+.style.heroh2 {
   font-size: larger;
   font-style: italic;
   color: white;
 }
- .heroContent{
+.heroContent {
   font-size: large;
   color: white;
- }
+}
 
+@media (max-width: 600px) {
+  .button {
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+}

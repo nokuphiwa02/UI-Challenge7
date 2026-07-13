@@ -2,7 +2,7 @@
   height: 50vh;
   width: 50vw;
   /* border: 5px solid greenyellow; */
-  background-color: aquamarine;
+  
 }
 .right img {
   height: 50vh;
@@ -43,4 +43,13 @@
 }
 .button:hover {
   color: #2b6980;
+}
+
+@media (max-width: 600px) {
+  .container{
+    flex-direction: column;
+  }
+  .right img{
+    width: 400px;
+  }
 }

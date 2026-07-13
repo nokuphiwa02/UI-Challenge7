@@ -1,15 +1,8 @@
-footer {
-  display: flex;
-  width: 100vw;
-  bottom: 0;
-  background-color: #c3ecfb;
-  color: #2b6980;
-}
-
 .content {
   display: inline-flex;
   gap: 50px;
   color: #2b6980;
+ 
 }
 
 ul {
@@ -50,14 +43,13 @@ button:hover {
   color: #a3cedd;
 }
 
-
 .contentContainer {
   width: 100%;
 }
 
 footer {
-  background-color: white;
   color: #2b6980;
+  
 }
 
 .iconImage {
@@ -65,11 +57,9 @@ footer {
   gap: 10px;
   height: 30px;
   width: 30px;
-  margin-top: 200px;
+  margin-top: 20px;
   margin-right: 20px;
-
 }
-
 
 .footerh2 {
   font-style: italic;
@@ -78,7 +68,7 @@ footer {
 }
 
 .footerp {
-color: #2b6980;
+  color: #2b6980;
 }
 
 .emailh2 {
@@ -87,4 +77,48 @@ color: #2b6980;
   color: #2b6980;
   margin-top: 250px;
   margin-right: 5px;
+}
+
+@media (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    display: flex;
+    gap: 35px;
+    width: 110%;
+  }
+  .content{
+    flex-direction: column;
+  }
+  .button {
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  footer {
+    flex-direction: column;
+    display: flex;
+    gap: 35px;
+    width: 110%;
+  }
+  .content{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1280px){
+  footer {
+    flex-direction: column;
+    display: flex;
+    gap: 25px;
+    width: 110%;
+  }
+  .content{
+    flex-direction: column;
+    gap: 5px;
+  }
+  .emailh2{
+    margin-top: 50px;
+  }
 }

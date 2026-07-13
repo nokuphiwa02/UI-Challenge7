@@ -41,3 +41,12 @@
 .button:hover {
   color: #a3cedd;
 }
+
+@media (max-width: 600px) {
+  .container{
+    flex-direction: column;
+  }
+   .left img{
+    width: 400px;
+  }
+}

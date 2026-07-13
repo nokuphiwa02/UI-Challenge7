@@ -22,10 +22,13 @@ export const Hero = () => {
               a comfortable and beatful home.
               shop with us and find the perfect pieces for every room.
             </h2>
-          </div>
-          <div className={style.buttonStyle}>
+            <div className={style.buttonStyle}>
             <button className={style.button}>Shop Now</button>
           </div>
+          </div>
+          {/* <div className={style.buttonStyle}>
+            <button className={style.button}>Shop Now</button>
+          </div> */}
         </div>
       </div>
       <div className="section">

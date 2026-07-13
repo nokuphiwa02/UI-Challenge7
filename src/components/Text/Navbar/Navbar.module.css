@@ -45,3 +45,10 @@ nav {
   background-color: blueviolet;
   font-family: arial;
 }
+
+@media (max-width: 600px) {
+  .content {
+    /* flex-direction: ; */
+    gap: 5px;
+  }
+}
