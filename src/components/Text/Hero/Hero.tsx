@@ -12,7 +12,7 @@ export const Hero = () => {
             backgroundPosition: "center",
             width: "110%",
             height: "600px",
-            marginTop: "40px",
+            marginTop: "41px",
           }}
         >
           <div className={style.heroContent}>
