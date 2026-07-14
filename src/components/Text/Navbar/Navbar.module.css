@@ -7,6 +7,7 @@ nav {
   top: 0;
   box-shadow: #2b6980;
   margin-bottom: -40px;
+ 
 }
 .content {
   display: flex;
@@ -48,8 +49,13 @@ nav {
 
 @media (max-width: 600px) {
   .content {
-    /* flex-direction: ; */
+    flex-direction: column ;
     gap: 5px;
+   
+  }
+  nav{
+    height: fit-content;
+     width: 106%;
   }
 }
 

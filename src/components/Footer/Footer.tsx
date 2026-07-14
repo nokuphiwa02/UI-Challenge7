@@ -24,15 +24,19 @@ export const Footer = () => {
         <div>
           <h2 className={style["footerh2"]}>About Us</h2>
           <p className={style["footerp"]}>
-            We design morden ,sustainable , and high quality furniture that
-            elevates you everyday living.
+            At modern furniture, we create stylish , comfortable, and high
+            quality futniture for evry Home. Our mission is to bring modern
+            design ,lasting durability, and affordable prices together, helping
+            you create a space you'll love.
           </p>
         </div>
         <div>
           <h2 className={style["footerh2"]}>Stay connected</h2>
           <p className={style["footerp"]}>
-            We design morden ,sustainable , and high quality furniture that
-            elevates you everyday living.
+            Stay connected with us for the latest furniture collections, special
+            offers, and home deco inspiration. Follow us on social media or call
+            us anytime . WE ARE ALWAYS HERE TO HELP YOU CREATE YOUR PERFECT
+            SPACE.
           </p>
           <button className={style.button}>BUY NOW</button>
         </div>
@@ -46,6 +50,7 @@ export const Footer = () => {
 
         <div>
           <h2 className={style["emailh2"]}>Email:decofuniture@gmail.com</h2>
+          <h2> call_No: 035 773 1292</h2>
         </div>
       </ContentContainer>
     </footer>

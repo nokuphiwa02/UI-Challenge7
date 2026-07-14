@@ -10,7 +10,7 @@
 @media (max-width: 1280px) {
   #app-container {
     width: 90vw;
-    /* padding-bottom: 50px; */
+  
   }
 }
 
@@ -20,6 +20,3 @@
   }
 }
 
-@media (max-width: 900px){
-
-}
