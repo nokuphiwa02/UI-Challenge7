@@ -49,7 +49,7 @@ export const Footer = () => {
         </div>
 
         <div>
-          <h2 className={style["emailh2"]}>Email:decofuniture@gmail.com</h2>
+          <h2 className={style["emailh2"]}>Email:decofuniture305@gmail.com</h2>
           <h2> call_No: 035 773 1292</h2>
         </div>
       </ContentContainer>
