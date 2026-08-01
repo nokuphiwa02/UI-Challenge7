@@ -22,6 +22,6 @@ npm run dev
 -GITHUB
 
 ## Website 
-https://vercel.com/phiwa-team/modern-furniture
+https://modern-furniture-mu.vercel.app
 
 
